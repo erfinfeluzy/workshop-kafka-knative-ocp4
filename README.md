@@ -39,3 +39,4 @@ Sample apps using Quarkus. source code [here](https://github.com/erfinfeluzy/qua
 
 ## Result on OCP
 Deployment will be like this on Openshift web console. Developer dahsboard > topology.
+![result](https://github.com/erfinfeluzy/workshop-kafka-knative-ocp4/blob/master/result.png?raw=true)
