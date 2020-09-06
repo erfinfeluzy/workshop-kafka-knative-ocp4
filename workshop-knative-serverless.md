@@ -20,8 +20,11 @@ Note: Sample apps is using Java application Quarkus. source code [here](https://
 5. Check **Create a route to the application**
 
 ## Step 4: Open sample apps Route
-1. Open Developer Dashboard > Topology > on ksvc service **quarkus-rest-health** > open URL
+1. Open: Developer Dashboard > Topology > on ksvc service **quarkus-rest-health** > open URL
 2. on browser open $URL/health
+3. Close browser. idle untill the pods size scaled to Zero (0)
+4. Reopen the browser: Developer Dashboard > Topology > on ksvc service **quarkus-rest-health** > open URL
+5. Pod will scale from 0 to 1 when request received.
 
 ## Result on OCP
 Deployment will be like this on Openshift web console. Developer dahsboard > topology.
