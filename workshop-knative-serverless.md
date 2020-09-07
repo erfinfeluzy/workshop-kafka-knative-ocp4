@@ -14,9 +14,10 @@ This tutorial will show how to deploy serverless apps demo using Red Hat OpenShi
 
 Note: Sample apps is using Java application Quarkus. source code [here](https://github.com/erfinfeluzy/quarkus-kafka-consumer)
 1. Open Developer Dashboard > Topology > right click > Add to Project > Container Image
-![result](https://github.com/erfinfeluzy/ocp4-notes/blob/master/screenshot/deploy-knative-apps-1.png)
+![result](https://github.com/erfinfeluzy/ocp4-notes/blob/master/screenshot/deploy-knative-apps-0.png)
 2. choose radio button : **Image name from external registry**
 3. input: **quay.io/efeluzy/quarkus-rest-health:v1**
+![result](https://github.com/erfinfeluzy/ocp4-notes/blob/master/screenshot/deploy-knative-apps-1.png)
 4. resource (combobox): Knative Service
 5. Check **Create a route to the application**
 ![result](https://github.com/erfinfeluzy/ocp4-notes/blob/master/screenshot/deploy-knative-apps-2.png)
