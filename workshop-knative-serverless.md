@@ -27,6 +27,7 @@ Note: Sample apps is using Java application Quarkus. source code [here](https://
 1. Open: Developer Dashboard > Topology > on ksvc service **quarkus-rest-health** > open URL
 2. on browser open $URL/health
 3. Close browser. idle untill the pods size scaled to Zero (0)
+![result](https://github.com/erfinfeluzy/ocp4-notes/blob/master/screenshot/deploy-knative-apps-4.png)
 4. Reopen the browser: Developer Dashboard > Topology > on ksvc service **quarkus-rest-health** > open URL
 5. Pod will scale from 0 to 1 when request received.
 
