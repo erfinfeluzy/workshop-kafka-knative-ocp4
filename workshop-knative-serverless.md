@@ -9,6 +9,7 @@ This tutorial will show how to deploy serverless apps demo using Red Hat OpenShi
 ## Step 1: Create new Project
 1. on top bar. Project > Create Project > project name = student-XX-demo
 > change XX to your user number
+![result](https://github.com/erfinfeluzy/ocp4-notes/blob/master/screenshot/deploy-knative-apps-create-ns.png)
 
 ## Step 2: Install sample apps from container registry as serverless application
 
